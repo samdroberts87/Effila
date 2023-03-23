@@ -1,0 +1,118 @@
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  .offcanvas-menu {
+    background-color: #333; 
+    opacity: 0.9;
+  }
+  .raleway {
+    font-family: 'Raleway', sans-serif; 
+  }
+.universal-border {
+    border: 1px solid rgb(149, 137, 106);
+  }
+  .hero-image-container {
+    position: relative;
+  }
+  .text {
+    color: white;
+    font-size: 16px;
+  }
+  .underline {
+    text-decoration: underline;
+  }
+  .container-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 0px;
+  padding-bottom: 0px;
+  }
+   .container-wrapper-au {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 0px;
+  padding-bottom: 0px;
+  }
+  .container-half1, .container-half2 {
+    width: 50%;
+    display: flex;
+    /* additional styles for each container */
+  }
+  @media (max-width: 880px){
+    .container-half1 {
+      width: 100%
+    }
+    .container-half2 {
+      display: none;
+    }
+  }
+  .about-us {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-wrapper-test {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .container-q1, .container-q2, .container-q3, .container-q4 {
+    padding: 20px;
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .italic{
+  font-style: italic;
+  }
+  @media (max-width: 880px) {
+    .container-wrapper-test {
+    flex-direction: column;  
+  }
+  .container-q1, .container-q2, .container-q3, .container-q4 {
+     border: 1px solid rgb(149, 137, 106);
+  }
+}
+  .container1234 {
+    justify-content: space around;
+    padding-top: 15px;
+  }
+  .test-tile-title {
+    padding-right: 20px;
+    background-color: rgb(149, 137, 106)
+  }
+  .gold-text {
+    color: rgb(149, 137, 106);
+  }
+  .our-services-box {
+    background-image: url("images/power-tool.avif");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-us-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .contact-details-box {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form-box {
+    flex-basis: 48%;
+  }
+    @media (max-width: 600px) {
+    .contact-us-section {
+    flex-direction: column;
+  }
+    
+  }
